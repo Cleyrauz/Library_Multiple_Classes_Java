@@ -23,8 +23,8 @@ public class BookTest {
     }
 
     @Test
-    public void bookHasAGender(){
-        assertEquals("fantasy", book.getGender());
+    public void bookHasAGenre(){
+        assertEquals("fantasy", book.getGenre());
     }
 
 }

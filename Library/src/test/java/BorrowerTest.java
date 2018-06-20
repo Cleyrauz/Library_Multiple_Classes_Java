@@ -15,7 +15,7 @@ public class BorrowerTest {
     }
 
     @Test
-    public void ShouldBorrowaBook(){
+    public void ShouldBorrowABook(){
         borrower.borrowBook(book1);
         assertEquals(1, borrower.getBorrowerBooks().size());
     }

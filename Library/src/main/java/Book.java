@@ -2,12 +2,12 @@ public class Book {
 
     private String title;
     private String author;
-    private String gender;
+    private String genre;
 
-    public Book(String title, String author, String gender) {
+    public Book(String title, String author, String genre) {
         this.title = title;
         this.author = author;
-        this.gender = gender;
+        this.genre = genre;
     }
 
     public String getTitle() {
@@ -18,7 +18,7 @@ public class Book {
         return author;
     }
 
-    public String getGender() {
-        return gender;
+    public String getGenre() {
+        return genre;
     }
 }
